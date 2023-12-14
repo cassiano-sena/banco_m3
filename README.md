@@ -4,13 +4,15 @@
 
 >Foram utilizados o XAMPP e phpMyAdmin para servidor local e gerenciamento de banco.<br>
 
-- Ative um servidor local;
+Como utilizar
 
-- Envie o script 'database-drop.sql' para o seu banco de dados;
+- Ativar um servidor local;
+
+- Enviar o script 'database-drop.sql' para o seu banco de dados;
 
 - Checar 'conexao.php' para modificar a forma de conectar ao servidor (login e senha do MySQL);
 
-- Testar a conexão com o servidor através de 'localhost/banco/index.php';
+- Testar a conexão com o servidor através de 'localhost/banco/index.php' (dependendo do servidor pode não ser localhost);
 
 - Caso funcione, você verá uma tela branca com um pequeno menu.
 
