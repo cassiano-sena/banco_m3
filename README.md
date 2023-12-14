@@ -4,7 +4,7 @@
 
 >Foram utilizados o XAMPP e phpMyAdmin para servidor local e gerenciamento de banco.<br>
 
-Como utilizar
+Como utilizar:
 
 - Ativar um servidor local;
 
