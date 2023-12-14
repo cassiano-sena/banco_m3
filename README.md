@@ -8,7 +8,7 @@
 
 - Checar 'conexao.php' para modificar a forma de conectar ao servidor (login e senha do MySQL);
 
-- Testar a conexão com o servidor local através de 'localhost/banco/index.php;
+- Testar a conexão com o servidor local através de '<servidor_que_utiliza>/banco/index.php' (para mim é localhost/);
 
 - Caso funcione, você verá uma tela branca com um pequeno menu.
 
