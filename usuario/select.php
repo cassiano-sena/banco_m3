@@ -6,8 +6,8 @@ try{
 echo 'Selecionando usuário...<br><br>';
 $stmt = $conn->prepare("SELECT * FROM tab_usuario ");
 // $stmt = $conn->prepare("SELECT * FROM tab_usuario WHERE nome = :nome");
-$stmt->bindParam(':nome', $nome);
-$nome = "Cassiano Sena";
+// $stmt->bindParam(':nome', $nome);
+// $nome = "Cassiano Sena";
 if ($stmt->execute()) {
     $resultados = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
@@ -17,7 +17,7 @@ if ($stmt->execute()) {
         echo "Registros encontrados!<br>";
 
         foreach ($resultados as $resultado) {
-            echo "ID: " . $resultado['origem_id'] . '<br>';
+            echo "ID: " . $resultado['usuario_id'] . '<br>';
             echo "Nome: " . $resultado['nome'] . '<br>';
             echo "Email: " . $resultado['email'] . '<br>';
             echo "Telefone: " . $resultado['telefone'] . '<br>';
